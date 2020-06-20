@@ -33,6 +33,8 @@
     NSString *combinedString = [NSString stringWithFormat:@"%@", testString];
     
     testInt = 100;
+    
+    double testDouble = 100.123;
 }
 
 

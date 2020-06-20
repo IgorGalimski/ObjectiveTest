@@ -10,7 +10,5 @@
 
 @interface ViewController : UIViewController
 
-int  testInt;
-
 @end
 
