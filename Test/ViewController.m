@@ -24,7 +24,13 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
+    NSString *testString = @"testString";
+    int testInt =  100;
+    BOOL testBool = NO;
+    
     self.Label.hidden = YES;
+    
+    NSString *combinedString = [NSString stringWithFormat:@"%@", testString];
 }
 
 
