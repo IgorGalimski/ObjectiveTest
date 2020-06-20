@@ -31,6 +31,8 @@
     self.Label.hidden = YES;
     
     NSString *combinedString = [NSString stringWithFormat:@"%@", testString];
+    
+    testInt = 100;
 }
 
 
