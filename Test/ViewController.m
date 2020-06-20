@@ -37,6 +37,11 @@
     double testDouble = 100.123;
     
     NSMutableArray *testArray = @[@123, @123, @"123"];
+    
+    if([testArray count] < 5)
+    {
+        
+    }
 }
 
 
