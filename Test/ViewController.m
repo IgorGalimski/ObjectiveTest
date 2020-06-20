@@ -10,14 +10,24 @@
 
 @interface ViewController ()
 
+- (IBAction)Button:(id)sender;
+
+@property (weak, nonatomic) IBOutlet UILabel *Label;
+
 @end
 
 @implementation ViewController
 
-- (void)viewDidLoad {
+- (void)viewDidLoad
+{
     [super viewDidLoad];
     // Do any additional setup after loading the view.
 }
 
+
+- (IBAction)Button:(id)sender
+{
+    self.Label.text = @"test";
+}
 
 @end
