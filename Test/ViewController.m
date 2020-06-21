@@ -40,7 +40,10 @@
     
     if([testArray count] < 5)
     {
-        
+        for (NSObject *object in testArray)
+        {
+            NSLog(@"%@", object);
+        }
     }
 }
 
